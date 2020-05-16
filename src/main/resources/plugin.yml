@@ -1,0 +1,12 @@
+name: GodsEye
+main: tsp.godseye.GodsEye
+version: 1.0
+
+commands:
+  godseye:
+    usage: /godseye [args]
+    description: Main Command
+
+permissions:
+  godseye.admin:
+    default: op

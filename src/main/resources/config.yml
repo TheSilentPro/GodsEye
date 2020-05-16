@@ -1,0 +1,22 @@
+# GodsEye - Advanced Player Information Fetcher
+#  by Silent
+
+# Fetching Sections
+fetch:
+  basic: true
+  advanced: true
+
+# If the result is empty, this will be put instead of leaving it without a value
+emptyResultReplacement: '/'
+
+# If the result is a boolean, it will be replaced with this
+booleanReplacement:
+  true: '&aYES'
+  false: '&cNO'
+
+# Decimal Formatter
+# Please don't touch if you do not know what you are doing!
+decimalFormat: '##.##'
+
+# Debug Mode
+debug: false
